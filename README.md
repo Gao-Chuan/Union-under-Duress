@@ -3,7 +3,7 @@
 ## Overview
 This repository serves as a hub for discussing and understanding the significant security risks associated with duplicate resource mismediation (Duress) in the Android software supply chain. Our research, detailed in the paper "Union under Duress," uncovers a new attack surface that poses serious threats to Android applications.
 
-**Website**: [Union under Duress](https://sites.google.com/view/union-under-duress/attack-demo)
+**Website with attack demo video**: [Union under Duress](https://sites.google.com/view/union-under-duress/attack-demo)
 
 ## Vendor Response
 Despite the potential severity of these findings, the response from Google has been underwhelming. They have not recognized this as a security issue within the scope of the Android Studio, instead labeling it as a responsibility of developers to ensure the security of their supply chain. Google's response can be found on our [Response Page](https://sites.google.com/view/union-under-duress/responses).
