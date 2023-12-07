@@ -22,7 +22,7 @@ Despite the potential severity of these findings, the response from Google has b
 ### Attack Strategies:
 
 1. Attackers can raise the priority of their malicious libraries, allowing them to override resources in lower-priority, legitimate libraries.
-2. Real-world examples include overriding the CDN URL of Razorpay, a payment platform, and replacing AWS credentials in the MistPlay SDK. These attacks don't involve illicit actions but misuse ARC's legitimate operations​​.
+2. Real-world examples include overriding the CDN URL of Razorpay, a payment platform, and replacing AWS credentials in the MistPlay SDK. These attacks do not involve illicit code but instead, they misuse ARC's legitimate operations.
 
 ### Methodology and Analysis:
 
