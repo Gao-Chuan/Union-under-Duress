@@ -28,7 +28,7 @@ Despite the potential severity of these findings, the response from Google has b
 
 1. The study identifies sensitive resource types and analyzes libraries and apps to assess Duress risks.
 2. Sensitive resources include manifest attributes and developer-specified resources like backend URLs, credentials, and technical support messages.
-3. The analysis reveals that 18.4% of libraries contain sensitive resources vulnerable to Duress attacks. Integration risks are found in 25.7% of libraries, and at least 428 apps are potentially affected by Duress.
+3. The analysis reveals that 18.4% of libraries contain sensitive resources vulnerable to Duress attacks. Integration risks are found in 25.7% of libraries, and at least 428 apps are potentially already affected by Duress.
 4. Notably, network security configurations and file provider paths are among the most common sources of integration risks​​.
 
 ## Resources
