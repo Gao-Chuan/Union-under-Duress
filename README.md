@@ -12,7 +12,7 @@ Despite the potential severity of these findings, the response from Google has b
 
 1. These attacks do not employ malicious code; instead, they leverage customized resources in the library(string, config files, etc.) to execute stealthy attacks.
 2. When there are conflicting resources from multiple libraries, the resources from lower-priority library will be abandon by Android resource compiler(ARC). The resources from the higher-priority library will take precedence and be included in the final app.
-3. ARC's priority mechanism determines the priority of libraries based on their dependency relation and position in dependency list.
+3. ARC's priority mechanism determines the priority of libraries based on their dependency relation and position in dependency list. This priority mechanism can be abuse by malicious libraries.
 4. The study is the first systematic investigation into Duress risks, analyzing over 23,000 libraries and 150,000 apps. It finds that 18.4% of libraries have sensitive resources exposed to Duress risks, 25.7% have integration risks with duplicate sensitive resources, and over 400 apps are potentially affected by Duress​.
 
 ### Duplication Resource Mismediation (Duress):
