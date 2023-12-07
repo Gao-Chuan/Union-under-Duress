@@ -10,7 +10,7 @@ Despite the potential severity of these findings, the response from Google has b
 
 ## Abstract Overview
 
-1. These attacks do not involve illicit code but instead, they use malicious resources and misuse ARC's legitimate operations.
+1. These attacks do not involve any malicious code but instead, they use malicious resources and misuse ARC's legitimate operations.
 2. The study introduces the concept of duplicate resource mismediation (Duress), where attackers use duplicate resources in malicious libraries to compromise the security and privacy of victim libraries during the app build process managed by the Android resource compiler (ARC).
 3. The study is the first systematic investigation into Duress risks, analyzing over 23,000 libraries and 150,000 apps. It finds that 18.4% of libraries have sensitive resources exposed to Duress risks, 25.7% have integration risks with duplicate sensitive resources, and over 400 apps are potentially affected by Duress​
 
